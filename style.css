@@ -125,11 +125,12 @@ h2{
 
 .dismiss{
     height: 40px;
-    width:  -webkit-fill-available;
     border: 1px solid hsl(234, 29%, 20%);
     background-color: hsl(234, 29%, 20%);
     border-radius: 10px;
     color: white;
+    padding: 1% 35%;
+    width: fit-content;
 }
 .dismiss:hover{
         background-image: linear-gradient(to right, hsl(6, 100%, 80%), hsl(4, 100%, 67%));
@@ -155,21 +156,20 @@ h2{
         border-radius: 30px;
         border-bottom-right-radius: 0px;
         border-bottom-left-radius: 0px;
-        width: -webkit-fill-available;
+        width:100%;
         margin-bottom: 5%;
     }
 
     .email{
-        max-width: -webkit-fill-available ;
+        width: inherit;
         height: 30px;
         border-radius: 5px;
-        height: 30px;
     }
 
     .subscribe{
-        width: -webkit-fill-available;
+        width: inherit;
         margin-top: 0px;
-        padding: auto;
+        padding: initial;
     }
 
     .content{
@@ -177,7 +177,7 @@ h2{
         padding-top: 8%;
         text-align: left;
         display: block;
-        width:  -webkit-fill-available;
+        width:initial;
     }
 
     .success{
